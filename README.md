@@ -15,6 +15,6 @@ cd target
 # run the first server at port 9090
 java -jar -Dserver.port=9091 haproxy-demo-xxx.jar
 
-# run the first server at port 9191 (in a separate console)
+# run the second server at port 9191 (in a separate console)
 java -jar -Dserver.port=9090 haproxy-demo-xxx.jar
 ```
